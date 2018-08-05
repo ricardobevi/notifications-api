@@ -8,7 +8,7 @@ public class BaseController {
 	
 	@RequestMapping("/")
     public String index() {
-        return "Base Application!";
+        return "Base Application with CD!";
     }
 	
 }
