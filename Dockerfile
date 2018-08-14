@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
-EXPOSE 8081
+EXPOSE 8082
 VOLUME /tmp
 ARG JAR_FILE
 COPY ${JAR_FILE} app.jar
