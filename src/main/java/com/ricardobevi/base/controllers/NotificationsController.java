@@ -14,6 +14,9 @@ public class NotificationsController {
 	@RequestMapping("/mail")
 	@PostMapping
     public ResponseEntity<Object> mail() {
+
+		System.out.println("Sending mail!");
+
 		return ResponseEntity.ok(new HashMap<String, Object>(){{
 			put("status", "Mail sent!");
 		}});
@@ -23,6 +26,9 @@ public class NotificationsController {
 	@RequestMapping("/sms")
 	@PostMapping
 	public ResponseEntity<Object> sms() {
+
+		System.out.println("Sending sms!");
+
 		return ResponseEntity.ok(new HashMap<String, Object>(){{
 			put("status", "SMS sent!");
 		}});
