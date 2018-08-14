@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class BaseApplication {
+public class NotificationsAPIApplication {
 
 	public static void main(String[] args) {
-		 ApplicationContext ctx = SpringApplication.run(BaseApplication.class, args);	
+		 ApplicationContext ctx = SpringApplication.run(NotificationsAPIApplication.class, args);
 	}
 }
